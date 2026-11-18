@@ -34,7 +34,7 @@ double readArgument(){
     if(!(in >> argument) || (in >> extra))
         throw invalid_argument("x is not a real number");
     if(argument< a || argument > b)
-        throw out_of_range(" is out of the range");
+        throw out_of_range("x is out of the range");
     return argument;
 }
 
